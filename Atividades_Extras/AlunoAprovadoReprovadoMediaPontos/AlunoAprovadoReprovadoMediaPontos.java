@@ -6,17 +6,17 @@ public class AlunoAprovadoReprovadoMediaPontos {
 
 	public static void main(String[] args) throws InterruptedException {
 		
-		System.out.println("\n\n\n\n\n\n\nCÁLCULO APROVAÇÃO, MÉDIA DAS NOTAS DOS ALUNOS E DA TURMA");
+		System.out.println("\n\n\n\n\n\n\nCï¿½LCULO APROVAï¿½ï¿½O, Mï¿½DIA DAS NOTAS DOS ALUNOS E DA TURMA");
 		Thread.sleep(5000);
 		limpaTela();
 
 		/*
 		 Receba o nome dos alunos com suas notas
-		 Calcular a média do aluno
-		 Exibir situação de Aprovação do aluno (aprovado com média >= 6).
-		 Calcular e mostrar a média geral da turma
-		 Mostrar a maior média da turma
-		 Mostrar a menor média da turma
+		 Calcular a mï¿½dia do aluno
+		 Exibir situaï¿½ï¿½o de Aprovaï¿½ï¿½o do aluno (aprovado com mï¿½dia >= 6).
+		 Calcular e mostrar a mï¿½dia geral da turma
+		 Mostrar a maior mï¿½dia da turma
+		 Mostrar a menor mï¿½dia da turma
 		*/
 		
 		Scanner scan = new Scanner(System.in);
@@ -24,15 +24,15 @@ public class AlunoAprovadoReprovadoMediaPontos {
 		System.out.print("Informe a quantidade de alunos na turma: ");
 		int qtdAlunos = scan.nextInt();
 		
-		// Limpando o console após 3 segundos
+		// Limpando o console apï¿½s 3 segundos
 		System.out.println("\n\nAGUARDE ENQUANTO ARMAZENAMOS ESTES DADOS! ");
 		Thread.sleep(3000);
 		limpaTela();
 		
-		System.out.print("Informe a quantidade de matérias para esta turma: ");
+		System.out.print("Informe a quantidade de matï¿½rias para esta turma: ");
 		int qtdMaterias = scan.nextInt();
 		
-		// Limpando o console após 3 segundos
+		// Limpando o console apï¿½s 3 segundos
 		System.out.println("\n\nAGUARDE ENQUANTO ARMAZENAMOS ESTES DADOS! ");
 		Thread.sleep(3000);
 		limpaTela();
@@ -46,7 +46,7 @@ public class AlunoAprovadoReprovadoMediaPontos {
 		for (int i = 0; i < qtdAlunos; i++) {
 			
 			// Recebendo os nomes dos alunos
-			System.out.print("Informe o nome do " + (i+1) + "º Aluno: ");
+			System.out.print("Informe o nome do " + (i+1) + "ï¿½ Aluno: ");
 			aluno[i] = scan.next();
 			
 			// Inicializando array somaNotas e mediaAluno
@@ -55,7 +55,7 @@ public class AlunoAprovadoReprovadoMediaPontos {
 			
 			// Recebendo as notas dos alunos
 			for (int j = 0; j < qtdMaterias; j++) {
-				System.out.print("Informe a " + (j+1) + "ª nota para o " + (i+1) + "º aluno (" + aluno[i] + "): ");
+				System.out.print("Informe a " + (j+1) + "ï¿½ nota para o " + (i+1) + "ï¿½ aluno (" + aluno[i] + "): ");
 				notas[j] = scan.nextInt();
 				somaNotas[i] += notas[j];
 				totalGeral += notas[j];
@@ -63,7 +63,7 @@ public class AlunoAprovadoReprovadoMediaPontos {
 			
 			mediaAluno[i] = somaNotas[i] / qtdMaterias;
 			
-			// Limpando o console após 3 segundos
+			// Limpando o console apï¿½s 3 segundos
 			System.out.println("\n\nAGUARDE ENQUANTO ARMAZENAMOS ESTES DADOS! ");
 			Thread.sleep(3000);
 			limpaTela();
@@ -74,7 +74,7 @@ public class AlunoAprovadoReprovadoMediaPontos {
 		
 		for (int i = 0; i < qtdAlunos; i++) {
 			
-			System.out.print("O(A) aluno(a) " + aluno [i] +  " totalizou " + somaNotas[i] + " pontos, com uma média de " + mediaAluno[i] + " pontos, ");
+			System.out.print("O(A) aluno(a) " + aluno [i] +  " totalizou " + somaNotas[i] + " pontos, com uma mï¿½dia de " + mediaAluno[i] + " pontos, ");
 			if (somaNotas[i] >= 60) {
 				System.out.println("portanto, foi APROVADO(A)!");
 			}
@@ -84,8 +84,8 @@ public class AlunoAprovadoReprovadoMediaPontos {
 			
 		}
 		
-		// Média geral da turma
-		System.out.println("\nA média geral de pontos desta turma foi de " + (totalGeral / (qtdMaterias * qtdAlunos)) + " pontos.");
+		// Mï¿½dia geral da turma
+		System.out.println("\nA mï¿½dia geral de pontos desta turma foi de " + (totalGeral / (qtdMaterias * qtdAlunos)) + " pontos.");
 		
 		System.out.println("\ntotal geral de pontos foi de : " + totalGeral);
 		
