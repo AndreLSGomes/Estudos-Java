@@ -40,9 +40,9 @@ public class WebSocketConfig implements WebSocketMessageBrokerConfigurer{
 		registry.addEndpoint("/ws").withSockJS();
 	}
 	
-	//@Override
+	@Override
 	// Configurar um engine de mensagens (roteador de mensagens)
-	public void configureMessageBroken(MessageBrokerRegistry registry) {
+	public void configureMessageBroker(MessageBrokerRegistry registry) {
 		registry.setApplicationDestinationPrefixes("/app");
 		registry.enableSimpleBroker("/topic");
 	}

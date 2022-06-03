@@ -6,7 +6,7 @@ public class AlunoAprovadoReprovadoMediaPontos {
 
 	public static void main(String[] args) throws InterruptedException {
 		
-		System.out.println("\n\n\n\n\n\n\nC�LCULO APROVA��O, M�DIA DAS NOTAS DOS ALUNOS E DA TURMA");
+		System.out.println("\n\n\n\n\n\n\nCÁLCULO APROVAÇÃO, MÉDIA DAS NOTAS DOS ALUNOS E DA TURMA");
 		Thread.sleep(5000);
 		limpaTela();
 
