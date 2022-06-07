@@ -6,7 +6,7 @@ public class PercorrendoArrayForEach {
 		
 		int valor = 10;
 
-		// Declaração de uma única linha
+		// Declaraï¿½ï¿½o de uma ï¿½nica linha
 		int[] numeros = {valor, 11, 12};
 		
 		// Exibindo os valores do array com ENHANCED FOR"
@@ -17,15 +17,15 @@ public class PercorrendoArrayForEach {
 
 		System.out.println("\n-------------------------------------------------\n");
 		
-		// Exibindo os índices e os valores do array com FOR
-		System.out.println("Exibindo os índices e os valores do array com FOR");
+		// Exibindo os ï¿½ndices e os valores do array com FOR
+		System.out.println("Exibindo os Ã­ndices e os valores do array com FOR");
 		for (int i = 0; i < numeros.length; i++) {
 			System.out.println("numeros[" + i + "] = " + numeros[i]);
 		}
 
 		System.out.println("\n-------------------------------------------------\n");
 		
-		// Declaração de uma única linha array bidimensional
+		// Declaraï¿½ï¿½o de uma ï¿½nica linha array bidimensional
 		int[][] elementos = {{0, 1, 1}, {3, 5, 8, 13}, {21, 34}};
 		
 		System.out.println("Array bidimensional\n");
@@ -41,8 +41,8 @@ public class PercorrendoArrayForEach {
 		
 		System.out.println("\n-------------------------------------------------\n");
 		
-		// Array anônimo
-		System.out.println("Array anônimo");
+		// Array anï¿½nimo
+		System.out.println("Array anï¿½nimo");
 		int x[];
 		x = new int[] {17, 38, 10};
 		System.out.println(x[0]);

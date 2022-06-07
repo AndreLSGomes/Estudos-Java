@@ -6,17 +6,17 @@ public class ArrayMultidimensional_Notas {
 		
 		double notas[][][] = new double[1][3][3];
 		
-		// Notas do primeiro aluno para a 1ª matéria.
+		// Notas do primeiro aluno para a 1ï¿½ matï¿½ria.
 		notas[0][0][0]= 6.5;
 		notas[0][0][1] = 7.5;
 		notas[0][0][2] = 7.0;
 		
-		// Notas do primeiro aluno para a 2ª matéria.
+		// Notas do primeiro aluno para a 2ï¿½ matï¿½ria.
 		notas[0][1][0]= 6.5;
 		notas[0][1][1] = 7.5;
 		notas[0][1][2] = 7.0;
 		
-		// Notas do primeiro aluno para a 3ª matéria.
+		// Notas do primeiro aluno para a 3ï¿½ matï¿½ria.
 		notas[0][2][0]= 6.5;
 		notas[0][2][1] = 7.5;
 		notas[0][2][2] = 7.0;
@@ -27,7 +27,7 @@ public class ArrayMultidimensional_Notas {
 			
 		for(j = 0; j <= 2; j++) {
 			for(k = 0; k <= 2; k++) {
-				System.out.println("Nota do: " + (i+1) + "º aluno, " + (j+1) + "ª matéria: " + notas[i][j][k]);
+				System.out.println("Nota do: " + (i+1) + "Âº aluno, " + (j+1) + "Âº matÃ©ria: " + notas[i][j][k]);
 			}
 			System.out.println("\n----------------------------------\n");
 		}

@@ -4,9 +4,9 @@ public class ConstrucaoInicializacaoAtribuicaoArrayEmUmaUnicaLinha {
 
 	public static void main(String[] args) {
 
-		// Construção, inicialização e atribuição de um array uma única linha
+		// Construï¿½ï¿½o, inicializaï¿½ï¿½o e atribuiï¿½ï¿½o de um array uma ï¿½nica linha
 		
-		System.out.println("Construção, inicialização e atribuição de um array uma única linha:");
+		System.out.println("ConstruÃ§Ã£o, inicializaÃ§Ã£o e atribuiÃ§Ã£o de um array uma Ãºnica linha:");
 		System.out.println("  -> int conjunto[][] = {{0, 1, 1, 9}, {3, 5, 8, 13}, {22, 89, 35}, {56, 9, 37}};\n");
 		int conjunto[][] = {{0, 1, 1, 9}, {3, 5, 8, 13}, {22, 89, 35}, {56, 9, 37}};
 		
